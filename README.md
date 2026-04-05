@@ -65,6 +65,20 @@ Make sure you have Node.js and NPM installed on your machine.
 
 4. **Navigate to:** `http://localhost:5173` in your browser.
 
+## 🌐 Deployment & Hosting
+
+This project is optimized and configured for instant deployment on **Vercel** via its native Vite integration.
+
+### Steps to Deploy:
+1. Push this repository to your GitHub account.
+2. Sign in to your [Vercel Dashboard](https://vercel.com/) and click **Add New > Project**.
+3. Import this GitHub repository (`finance-dashboard`).
+4. Ensure the **Framework Preset** is recognized as **Vite**.
+5. Keep the default Build Command (`npm run build`) and Output Directory (`dist`).
+6. Click **Deploy**. Vercel will safely compile and host the app automatically via HTTPS!
+
+> Note: Because this app relies entirely on React State (Context API) for page transitions, there is absolutely no need for a complex `vercel.json` routing fallback.
+
 ## 🎨 Design Philosophy
 This app follows a strictly enforced **"Premium Fintech"** aesthetic. Generic templates were actively avoided in favor of bespoke glassmorphism elements, custom micro-animations, neon-accented gradients, and a soothing dark background palette.
 
